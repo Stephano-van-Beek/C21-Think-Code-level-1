@@ -1,22 +1,29 @@
-#Challange.
-print("Hello en welkom met mijn lijst wat ik leuk vind")
+#username
+print ('enter your name:')
+name=input()
+print('hello', name)
+print ('welcome')
+#Vragen
+question =print('De hoofdstad van Nederland is [A] Amsterdam of [B] Utrecht')
+question=input()
+if question ==("A"):
+    print("Goed!")
+elif question ==("B"):
+    print("Fout.")
 
-#intoductie
-name = "Stéphano"
-print ("Hello ik ben",name, "en ik ga jouw een lijst geven van mijn toppers") 
+question =print('Hoeveel zintuigen heeft een mens? [A] 6 [B] 5')
+question=input()
+if question ==("A"):
+    print("Fout")
+elif question ==("B"):
+    print("Goed.")
 
-#top 3 games die ik speel
-def favorite_games (name):
-    print ("One of my favorite games is", name)
-
-favorite_games("Warframe")
-favorite_games("Minecraft")
-favorite_games("Genshin")
-
-#Top 3 movies
-def favorite_movies (name):
-    print ("One of my favorite movies is", name)
-
-favorite_movies("Joker")
-favorite_movies("End game")
-favorite_movies("Pirates of the caribbean")
+question =print('Hoe wordt de mand onder een hete luchtballon genoemd? [A] Mand [B] Gondel')
+question=input()
+if question ==('A'):
+    print("Fout.")
+elif question ==("B"):
+    print("Goed")
+print("Bedankt voor het meedoen")
+ 
+ 
